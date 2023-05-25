@@ -1,0 +1,13 @@
+name: SolarLevel
+version: '${project.version}'
+main: me.solarbakha.solarlevel.SolarLevel
+api-version: 1.19
+authors: [ SolarBakha ]
+commands:
+  solarlevel:
+    description: .
+    usage: |-
+      Usage:
+      /solarlevel <get,add,set,reload> <Player> <value if set/add> <optional: exp/levels
+softdepend: [ PlaceholderAPI, CoreProtect ]
+description: todo_description
